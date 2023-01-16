@@ -14,7 +14,7 @@
 }
 
 main {
-    width: 60%;
+    width: 55%;
     margin: auto;
 }
 
@@ -35,7 +35,7 @@ main {
     height: 150px;
     width: 250px;
     background-image: url(../img/monitor.jpg);
-    background-size: auto;
+    background-size: contain;
     margin-top: 10px;
 }
 
@@ -43,7 +43,7 @@ main {
     height: 150px;
     width: 250px;
     background-image: url(../img/graph.jpg);
-    background-size: auto;
+    background-size: contain;
     margin-top: 10px;
 }
 
@@ -51,3 +51,24 @@ main {
     padding: 10px;
     color: white;
 }
+
+.ciao{
+    background-color: aqua;
+    
+}
+
+.blu{
+    background-color: rgb(14, 117, 201);
+    margin: auto;
+}
+
+.casella{
+    width: 20%;
+    color: white;
+}
+
+#titolo-casella{
+    color: white;
+}
+
+
