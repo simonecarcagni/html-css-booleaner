@@ -5,10 +5,49 @@
     
 }
 
-#logo{
+#logo {
     height: 160px;
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-size: 25%;
     background-position: left bottom;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+#journal-name {
+    color: rgb(83, 188, 234);
+}
+
+.testo-grigio {
+    color: dimgray;    
+   
+}
+
+.piccolo {
+    font-size: 80%;
+}
+
+#graph-1{
+    height: 150px;
+    width: 250px;
+    background-image: url(../img/monitor.jpg);
+    background-size: auto;
+    margin-top: 10px;
+}
+
+#graph-2{
+    height: 150px;
+    width: 250px;
+    background-image: url(../img/graph.jpg);
+    background-size: auto;
+    margin-top: 10px;
+}
+
+.testo-finale{
+    padding: 10px;
+    color: white;
 }
