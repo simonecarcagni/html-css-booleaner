@@ -1,0 +1,14 @@
+#frontespizio {
+    height: 175px;
+    background-color: rgb(74, 139, 215);
+    background-image: url(../img/pattern.png);
+    
+}
+
+#logo{
+    height: 160px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left bottom;
+}
