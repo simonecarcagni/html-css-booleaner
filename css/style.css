@@ -1,3 +1,4 @@
+/*Style di Header*/
 #frontespizio {
     height: 175px;
     background-color: rgb(74, 139, 215);
@@ -13,9 +14,11 @@
     background-position: left bottom;
 }
 
+/*Style del Main*/
 main {
     width: 55%;
     margin: auto;
+    
 }
 
 #journal-name {
@@ -23,7 +26,8 @@ main {
 }
 
 .testo-grigio {
-    color: dimgray;    
+    color: dimgray;  
+    font-weight: bold; 
    
 }
 
@@ -31,28 +35,7 @@ main {
     font-size: 80%;
 }
 
-#graph-1{
-    height: 150px;
-    width: 250px;
-    background-image: url(../img/monitor.jpg);
-    background-size: contain;
-    margin-top: 10px;
-}
-
-#graph-2{
-    height: 150px;
-    width: 250px;
-    background-image: url(../img/graph.jpg);
-    background-size: contain;
-    margin-top: 10px;
-}
-
-.testo-finale{
-    padding: 10px;
-    color: white;
-}
-
-.ciao{
+.ciano{
     background-color: aqua;
     
 }
@@ -71,4 +54,36 @@ main {
     color: white;
 }
 
+#lista{
+   padding-left: 20px;
+     
+}
+
+table{
+    border-collapse: collapse;
+    border-width: 0px;
+    width: 100%;
+}
+
+#graph-1 {
+    height: 150px;
+    width: 250px;
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    margin-top: 10px;
+}
+
+/*Style del Footer*/
+#graph-2 {
+    height: 150px;
+    width: 250px;
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.testo-finale {
+    padding: 10px;
+    color: white;
+}
 
