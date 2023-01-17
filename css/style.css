@@ -12,6 +12,8 @@
     background-repeat: no-repeat;
     background-size: 25%;
     background-position: left bottom;
+    width: 55%;
+    margin: auto;
 }
 
 /*Style del Main*/
@@ -20,6 +22,9 @@ main, footer{
     margin: auto;
 }
 
+h1 {
+    margin: 0;
+}
 #journal-name {
     color: rgb(83, 188, 234);
 }
@@ -27,11 +32,11 @@ main, footer{
 .testo-grigio {
     color: dimgray;  
     font-weight: bold; 
-   
+    margin-bottom: 20px;
 }
 
 .piccolo {
-    font-size: 80%;
+    font-size: 12px;
 }
 
 .ciano{
@@ -54,35 +59,29 @@ main, footer{
 }
 
 #lista{
-   padding-left: 20px;
-     
+   padding-left: 14px;
 }
 
 table{
-    border-collapse: collapse;
-    border-width: 0px;
-    width: 100%;
+    border-collapse: collapse;    
 }
 
 /*Style del Footer*/
 #graph-1 {
-    height: 150px;
-    width: 250px;
     background-image: url(../img/monitor.jpg);
-    background-size: contain;
-    margin-top: 10px;
 }
 
 #graph-2 {
-    height: 150px;
-    width: 250px;
     background-image: url(../img/graph.jpg);
-    background-size: contain;
-    margin-top: 10px;
 }
 
 .testo-finale {
     padding: 10px;
     color: white;
+    background-size: contain;
+    margin-top: 10px;
+    height: 150px;
+    width: 250px;
+    font-weight: bold;
 }
 
